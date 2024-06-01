@@ -1,0 +1,30 @@
+[
+{
+    "id": 1,
+    "name": "BUTTERMILK PANCAKES",
+    "ingredients": {
+        "ing1": "1 tbsp",
+        "ing2": "1 cup",
+        "ing3": "1 tsp"
+    },
+    "instructions": [
+        "Step 1",
+        "Step 2",
+        "Step 3"
+    ]
+},
+{
+    "id": 2,
+    "name": "EGG FRIED RICE",
+    "ingredients": {
+        "ing1": "1 tbsp",
+        "ing2": "1 cup",
+        "ing3": "1 tsp"
+    },
+    "instructions": [
+        "Step 1",
+        "Step 2",
+        "Step 3"
+    ]
+}
+]
