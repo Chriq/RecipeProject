@@ -9,15 +9,15 @@ import { RecipeService } from 'src/app/services/recipe.service';
 })
 export class TestComponent implements OnInit {
 
-  recipe: Recipe;
+  recipes: Recipe[];
 
   constructor(
     private recipeService: RecipeService
   ) { }
 
   ngOnInit(): void {
-    this.recipeService.fetchTestEndpoint().subscribe((result) => {
-      this.recipe = result;
+    this.recipeService.fetchAllRecipes().subscribe((result) => {
+      this.recipes = result;
     })
   }
 
